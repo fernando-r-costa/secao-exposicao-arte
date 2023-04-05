@@ -1,0 +1,26 @@
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  width: 1440px;
+  background-color: var(--very-light-gray);
+}
+
+.attribution {
+  font-size: 14px;
+  color: black;
+  text-align: right;
+  margin: 25px 30px 0 25px;
+}
+
+.attribution img {
+  width: 2%;
+}
