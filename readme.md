@@ -30,10 +30,11 @@ E como você sabe que ele é muito ocupado e provavelmente vai esquecer de te tr
 
 ### Links
 
-<!-- - Site URL: [E-commerce page](https://e-commerce-page-lovat.vercel.app/) -->
+- Site URL: [Exposição de arte](https://secao-exposicao-arte.vercel.app/)
 
 ## Meu processo
 
+- [x] Modal-abertura
 - [ ] Desktop-design
 - [ ] Lightbox
 - [ ] Mobile-design
