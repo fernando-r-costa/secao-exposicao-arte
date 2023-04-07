@@ -35,7 +35,7 @@ E como você sabe que ele é muito ocupado e provavelmente vai esquecer de te tr
 ## Meu processo
 
 - [x] Modal-abertura
-- [ ] Desktop-design
+- [15%] Desktop-design
 - [ ] Lightbox
 - [ ] Mobile-design
 
