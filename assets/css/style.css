@@ -13,31 +13,60 @@ body {
   background-image: url(../images/background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  /* background-position-x: center;
-  background-position-y: center; */
 }
 
 .container-exposicao {
-  display: grid;
-  grid-template-columns: 34.7rem;
-  grid-template-rows: 23rem;
-  grid-column-gap: 0rem;
-  grid-row-gap: 0rem;
-  position: relative;
-  top: 195px;
-  left: 195px;
+  padding: 14rem 0 0 35rem;
+  width: 35rem;
+  height: 23rem;
+  perspective: 100rem;
 }
 
 .imagem-exposicao {
-  grid-area: 1 / 1 / 2 / 2;
   background-color: rgb(189, 187, 178);
+  background-size: contain;
   border-radius: 0.5rem;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  transition: transform 1s;
+  width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+  box-shadow: 1rem 1rem 3rem 0rem rgb(75, 74, 72);
 }
 
-.imagem-exposicao img {
+.imagem-exposicao-frente {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 100%;
+	height: 100%;
+  backface-visibility: hidden;
+}
+
+#imagem {
+  margin: auto;
   width: 100%;
+  border-radius: 0.5rem;
+}
+
+
+.imagem-exposicao-verso {
+  position: absolute;
+  margin: 1rem 0 0 2rem;
+	width: 90%;
+	height: 100%;
+  color: black;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+
+.container-exposicao:hover .imagem-exposicao {
+  transform: rotateY(180deg);
 }
 
 .attribution {
