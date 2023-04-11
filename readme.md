@@ -26,7 +26,12 @@ E como você sabe que ele é muito ocupado e provavelmente vai esquecer de te tr
 
 ### Screenshot
 
-<!-- ![](./design/desktop-preview.jpg) -->
+![Desktop Boas Vindas](./assets/screenshots/desktop-1.jpeg)
+![Desktop Galeria](./assets/screenshots/desktop-2.jpeg)
+![Desktop Lightbox](./assets/screenshots/desktop-3.jpeg)
+![Mobile Boas Vindas](./assets/screenshots/mobile-1.jpeg)
+![Mobile Galeria](./assets/screenshots/mobile-2.jpeg)
+![Mobile Lightbox](./assets/screenshots/mobile-3.jpeg)
 
 ### Links
 
