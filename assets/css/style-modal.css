@@ -27,7 +27,7 @@
   box-shadow: 0.5rem 0.5rem 2rem 1.5rem orange;
 }
 
-.pergunta-modal {
+.titulo-modal {
   grid-area: 1 / 1 / 2 / 3;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
   font-size: 2.5rem;
 }
 
-.pergunta-modal img {
+.titulo-modal img {
   width: 7vw;
   margin: 1.3rem;
 }
@@ -83,28 +83,117 @@
   opacity: 60%;
 }
 
-/* .botao2 {
-    grid-area: 3 / 2 / 4 / 3;
+.lightbox {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(34, 34, 34);
 }
 
-#botao2 {
-    width: 110px;
-    height: 40px;
-    margin: 0 10px;
-    background-color: hsl(358, 79%, 66%);
-    color: hsl(228, 33%, 97%);
-    text-transform: uppercase;
-    font-size: 12px;
-    border: none;
-    border-radius: 5px;
+.lightbox-conteudo {
+  display: grid;
+  grid-template-columns: 20vw 60vw 20vw;
+  grid-template-rows: 8vw 40vw 12vw;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  width: 100vw;
+  height: auto;
+  border-radius: 1.5rem;
+  margin: 0 0 0 0;
 }
 
-#botao2:hover {
-    cursor: pointer;
-    opacity: 60%;
-} */
+.titulo-lightbox {
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  margin: auto;
+  font-weight: 700;
+  font-size: 4.5rem;
+}
 
-@media screen and (max-width: 800px) {
+.botao-lightbox {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+#botao-lightbox {
+  width: 4rem;
+  height: 4rem;
+  margin: 1.5rem 0 0 10rem;
+  background-color: black;
+  color: orange;
+  font-size: 3rem;
+  border: transparent;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 1rem 0.5rem orange;
+}
+
+#botao-lightbox:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.slide-esquerda {
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-esquerda img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.slide-central {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.slide-central img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.slide-direita {
+  grid-area: 2 / 3 / 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-direita img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+
+}
+
+.slide-direita, .slide-esquerda:hover {
+  cursor: pointer;
+}
+
+.texto-lightbox {
+  grid-area: 3 / 1 / 4 / 4;
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  color: orange;
+  margin: 1rem 10rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
   .modal-conteudo {
     display: grid;
     grid-template-columns: 30vw 30vw;
@@ -127,4 +216,15 @@
     height: 6rem;
     font-size: 2.5rem;
   }
+
+  .lightbox-conteudo {
+    grid-template-columns: 15vw 70vw 15vw;
+  }
+
+  #botao-lightbox {
+    width: 5rem;
+    height: 5rem;
+    margin: 1.5rem 0 0 0;
+  }
+
 }

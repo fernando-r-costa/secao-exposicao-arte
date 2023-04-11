@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 
   body {
     height: 121vw;
@@ -42,6 +42,14 @@
     margin: 5rem 0 0 1rem;
     padding: 20rem 1rem 0 0;
     height: 26rem;
+  }
+
+  .botao-tela-cheia {
+    margin: 50rem 0 0 -3.5rem;
+  }
+
+  .botao-tela-cheia img {
+    width: 4rem;
   }
 
   .attribution {

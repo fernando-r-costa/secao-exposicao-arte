@@ -1,72 +1,88 @@
 let section = document.querySelector("section");
-let logoGaleria = "../images/FRC.gif";
-
-let textoPergModal = "<h1>Bem vindo a Galeria de Arte</h1><img src='./assets/images/FRC.gif'>";
+let textoTitModal = "<h1>Bem vindo a Galeria de Arte</h1><img src='./assets/images/FRC.gif'>";
 let textoTextoModal = "Aqui você poderá observar as obras e saber um pouco mais de grandes artistas.";
 let textoBotao1 = "Entrar";
-// let textoBotao2 = "";
-// let textoBotao3 = "";
-// let textoBotao4 = "";
 
-function montaModal() {
+let textoTitLightbox = "<h1>Leonardo da Vinci</h1>";
+let textoBotaoLightbox = "X";
 
+
+function montaModal(id) {
+  if (id === 1) {
     let modal = document.createElement("div");
     let modalConteudo = document.createElement("div");
-    let perguntaModal = document.createElement("p");
-    let textoModal = document.createElement("p");
+    let tituloModal = document.createElement("div");
+    let textoModal = document.createElement("div");
     let botao1 = document.createElement("button");
 
     modal.classList.add("modal");
     modalConteudo.classList.add("modal-conteudo");
-    perguntaModal.classList.add("pergunta-modal");
+    tituloModal.classList.add("titulo-modal");
     textoModal.classList.add("texto-modal");
     botao1.classList.add("botao1");
     botao1.setAttribute("id", "botao1");
-    botao1.setAttribute("onclick", "fechaModal()");
+    botao1.setAttribute("onclick", "fechaModal(1)");
 
-    perguntaModal.innerHTML = textoPergModal;
+    tituloModal.innerHTML = textoTitModal;
     textoModal.innerText = textoTextoModal;
     botao1.innerText = textoBotao1;
 
     section.before(modal);
     modal.appendChild(modalConteudo);
-    modalConteudo.appendChild(perguntaModal);
-    modalConteudo.appendChild(botao1);
+    modalConteudo.appendChild(tituloModal);
     modalConteudo.appendChild(textoModal);
+    modalConteudo.appendChild(botao1);
 
-    // if (textoBotao2 == "Apagar") {
-    //     let botao2 = document.createElement("button");
-    //     botao2.setAttribute("id", "botao2");
-    //     botao2.innerText = textoBotao2
-    //     modalConteudo.appendChild(botao2);
-    //     botao2.setAttribute("onclick", "elementoPai.remove(); fechaModal();");
-    // } else if (textoBotao2 != "") {
-    //     let botao2 = document.createElement("button");
-    //     botao2.setAttribute("id", "botao1");
-    //     botao2.innerText = textoBotao2
-    //     modalConteudo.appendChild(botao2);
-    //     botao2.setAttribute("onclick", "dados.currentUser = dados.users[1]; fechaModal(); mostraComentarios(dados);");
-    // }
-    // if (textoBotao3 != "") {
-    //     let botao3 = document.createElement("button");
-    //     botao3.setAttribute("id", "botao1");
-    //     botao3.innerText = textoBotao3
-    //     modalConteudo.appendChild(botao3);
-    //     botao1.setAttribute("onclick", "dados.currentUser = dados.users[0]; fechaModal(); mostraComentarios(dados);");
-    //     botao3.setAttribute("onclick", "dados.currentUser = dados.users[2]; fechaModal(); mostraComentarios(dados);");
-    // }
-    // if (textoBotao4 != "") {
-    //     let botao4 = document.createElement("button");
-    //     botao4.setAttribute("id", "botao1");
-    //     botao4.innerText = textoBotao4
-    //     modalConteudo.appendChild(botao4);
-    //     botao4.setAttribute("onclick", "dados.currentUser = dados.users[3]; fechaModal(); mostraComentarios(dados);");
-    // }
+  } else if (id === 2) {
+
+    let modal = document.createElement("div");
+    let modalConteudo = document.createElement("div");
+    let tituloModal = document.createElement("div");
+    let textoModal = document.createElement("div");
+    let botao1 = document.createElement("button");
+    let slideEsquerda = document.createElement("div");
+    let slideCentral = document.createElement("div");
+    let slideDireita = document.createElement("div");
+
+    modal.classList.add("lightbox");
+    modalConteudo.classList.add("lightbox-conteudo");
+    tituloModal.classList.add("titulo-lightbox");
+    textoModal.classList.add("texto-lightbox");
+    botao1.classList.add("botao-lightbox");
+    botao1.setAttribute("id", "botao-lightbox");
+    botao1.setAttribute("onclick", "fechaModal(2)");
+    slideEsquerda.classList.add("slide-esquerda");
+    slideEsquerda.setAttribute("onclick", "previousImagem()");
+    slideCentral.classList.add("slide-central");
+    slideDireita.classList.add("slide-direita");
+    slideDireita.setAttribute("onclick", "nextImagem()")
+
+    tituloModal.innerHTML = textoTitLightbox;
+    botao1.innerText = textoBotaoLightbox;
+    textoModal.innerHTML = descricaoAtual;
+    slideEsquerda.innerHTML = `<img src="${slideAnterior}">`;
+    slideCentral.innerHTML = `<img src="${slideAtual}">`;
+    slideDireita.innerHTML = `<img src="${slidePosterior}">`;
+
+    section.before(modal);
+    modal.appendChild(modalConteudo);
+    modalConteudo.appendChild(tituloModal);
+    modalConteudo.appendChild(textoModal);
+    modalConteudo.appendChild(botao1);
+    modalConteudo.appendChild(slideEsquerda);
+    modalConteudo.appendChild(slideCentral);
+    modalConteudo.appendChild(slideDireita);
+  }
 }
 
-function fechaModal() {
+function fechaModal(id) {
+  if (id === 1) {
     const modal = document.querySelector(".modal");
     modal.remove();
+  } else if (id === 2) {
+    const lightbox = document.querySelector(".lightbox");
+    lightbox.remove();
+  }
 }
 
-montaModal();
+montaModal(1);

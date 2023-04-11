@@ -112,6 +112,19 @@ main {
   cursor: pointer;
 }
 
+.botao-tela-cheia {
+  margin: 23rem 0 0 -2.5rem;
+}
+
+.botao-tela-cheia img {
+  width: 2.7rem;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+.botao-tela-cheia:hover {
+  cursor: pointer;
+}
+
 .attribution {
   font-size: 1rem;
   font-weight: bold;

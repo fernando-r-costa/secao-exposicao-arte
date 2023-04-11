@@ -38,7 +38,7 @@ E como você sabe que ele é muito ocupado e provavelmente vai esquecer de te tr
 - [x] Desktop-design
 - [x] Mobile-design
 - [x] Slide
-- [ ] Lightbox-carrossel
+- [x] Lightbox-carrossel
 
 ## Autor
 
