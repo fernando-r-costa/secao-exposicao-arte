@@ -1,31 +1,31 @@
 @media screen and (max-width: 800px) {
 
   body {
-    height: 78vw;
-    background-size: 190vw;
+    height: 121vw;
+    background-size: 200vw;
   }
 
   header p {
-    padding: 1rem 0 0 5rem;
+    padding: 10rem 0 0 5rem;
     font-size: 2.5rem;
   }
 
   header h1 {
-    padding: 2rem 0 2rem 20rem;
+    padding: 5rem 0 2rem 20rem;
     font-size: 7rem;
   }
 
   .container-exposicao {
-    padding: 1rem 0 0 1rem;
-    width: 68rem;
-    height: 43rem;
+    padding: 7rem 0 0 1rem;
+    width: 71rem;
+    height: 45rem;
     perspective: 100rem;
   }
 
   .imagem-exposicao-verso {
     margin: 1.5rem 0 0 4.5rem;
-    font-size: 2.7rem;
-    line-height: 3.2rem;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
   }
 
   .botao-navegar {
@@ -33,19 +33,20 @@
   }
 
   #nav-voltar {
-    margin: 0 0 0 15.5rem;
+    margin: 5rem 0 0 14.5rem;
     padding: 20rem 0 0 1rem;
     height: 26rem;
   }
 
   #nav-proxima {
-    margin: 0 0 0 1rem;
+    margin: 5rem 0 0 1rem;
     padding: 20rem 1rem 0 0;
     height: 26rem;
   }
 
   .attribution {
     font-size: 1.5rem;
+    padding: 5rem 3rem 0 0;
   }
 
   .attribution img {

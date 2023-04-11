@@ -1,0 +1,71 @@
+{
+  "obras": [
+    {
+      "image": {
+          "webp": "./assets/obras-arte/a-anunciacao.webp"
+        },
+        "descricao": "A Anunciação<br><br>Pintada entre os anos 1472 e 1475, é um óleo sobre madeira e representa os primeiros passos de Leonardo na pintura, apesar de nem todos concordarem com o veredito. Esteve 'escondida' em um mosteiro até 1867 quando foi transferida para a Galleria degli Uffizi.<br><br>O tema é a representação do momento bíblico em que o anjo visita a Virgem para lhe dizer que ela irá dar à luz o messias, filho de Deus."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/retrato-de-ginevra-de-benci.webp"
+        },
+        "descricao": "O Retrato de Ginevra de' Benci<br><br>Foi pintado por Leonardo entre os anos 1474 e 1476. É um óleo sobre madeira e a figura retratada é uma jovem aristocrática de Florença, famosa e admirada pela sua inteligência.<br><br>O tamanho da obra foi encurtado, pois originalmente chegaria até depois da cintura da jovem e incluiria a representação de suas mãos descansando sobre seu regaço."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/virgem-das-rochas.webp"
+        },
+        "descricao": "A Virgem das Rochas<br><br>É um óleo sobre madeira e foi executado cerca de 1485.<br><br>O tema tratado nesta pintura é único e enigmático, pois temos representados São João em menino a adorar Jesus na presença da Virgem e de um anjo. Cada figura está reproduzindo um gesto diferente, o anjo aponta com seu dedo indicador, neste caso não para cima, mas na direção de São João. Enquanto isso, a Virgem protege, São João está em posição de adoração e o Menino Jesus está benzendo."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/vitruvian-man.webp"
+        },
+        "descricao": "O Homem Vitruviano<br><br>Por volta do ano de 1487, um desenho de tinta em papel, de duas figuras masculinas sobrepostas com braços e pernas separadas dentro de um círculo e um quadrado.<br><br>O desenho está acompanhado de notas baseadas na obra do famoso arquiteto Vitruvius Pollio. É considerado um estudo das proporções e uma perfeita justaposição entre ciência e arte, assim como é um dos trabalhos mais identificativos do artista, cientista e inventor que foi Leonardo da Vinci."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/dama-com-arminho.webp"
+        },
+        "descricao": "A Dama com Arminho<br><br>É um óleo sobre madeira pintado por volta dos anos 1489-1490 por Leonardo. A figura representada é Cecilia Gallerani, uma amante do Duque de Milão, Lodovico Sforza.<br><br>Sua sobrevivência é quase um milagre, pois em 1800 foi comprada por um príncipe polonês, sofreu repinturas, exílio e esteve em esconderijos devido a invasões e guerras. Em 1939, depois da invasão nazista,foi encontrada com uma pegada."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/la-belle-ferroniere.webp"
+        },
+        "descricao": "La Belle Ferronière<br><br>Pintada entre os anos 1490 e 1495, é um óleo sobre madeira. A figura representada será de uma mulher desconhecida, uma filha ou esposa de um ferreiro.<br><br>Esta pintura é uma dos únicos quatro retratos do pintor, sendo que as outras três são a Mona Lisa, A Dama com Arminho e o Retrato de Ginevra de’ Benci."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/a-ultima-ceia.webp"
+        },
+        "descricao": "A Última Ceia<br><br>É uma pintura mural executada entre os anos 1493-1498 na parede do refeitório do Convento de Santa Maria Delle Grazie em Milão. Esta é a obra que vai dar notoriedade ao artista.<br><br>Representa a última ceia entre Cristo e os seus discípulos. O momento captado será o após Cristo anunciar que um dos seus discípulos o irá trair, algo que se fundamenta na gesticulação agitada das figuras à volta de Cristo em oposição à sua calma e passividade."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/salvator-mundi.webp"
+        },
+        "descricao": "Salvator Mundi<br><br>É um óleo sobre tela, possivelmente pintado entre os anos 1490 e 1500, alegadamente para o rei Luís XII de França e sua consorte, Ana, Duquesa da Bretanha.<br><br>A composição apresenta um Cristo salvador do mundo, segurando um globo de cristal com sua mão esquerda e benzendo com a direita. Ele está vestido com trajos tradicionais da Renascença."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/mona-lisa.webp"
+        },
+        "descricao": "A Mona Lisa (ou A Gioconda)<br><br>É um óleo sobre madeira pintado por Leonardo entre 1503-1506. Esta pintura retrata Mona Lisa, a jovem esposa de Francesco de Giocondo, segundo Giorgio Vasari.<br>br>O seu famoso sorriso, uma expressão semelhante encontra-se em outras figuras da obra do artista (Santa Ana e São João Evangelista na Última Ceia).<br><br>Porém, o sorriso pode ter sido apenas a representação fidedigna da disposição da modelo, ou até influência do sorriso arcaico da arte grega da época clássica que tanto influenciou a arte da renascença."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/a-virgem-e-o-menino-com-santa-ana.webp"
+        },
+        "descricao": "A Virgem e o Menino com Santa Ana<br><br>Óleo sobre madeira, foi executada em 1510 por Leonardo. Nela estão representadas três figuras bíblicas: Santa Ana, sua filha a Virgem Maria e o menino Jesus. Sendo que o menino segura em suas mãos um cordeiro.<br><br>Apesar da composição iconográfica ser de comum representação, o estranho nesta pintura é a posição de Maria, sentada no regaço de sua mãe, Santa Ana."
+    },
+    {
+      "image": {
+          "webp": "./assets/obras-arte/sao-joao-batista.webp"
+        },
+        "descricao": "São João Batista<br><br>É um óleo sobre madeira, pintado entre os anos 1513 e 1516. É possível que seja a última obra do artista.<br><br>São João tem o dedo indicador da mão direita apontando para o céu, talvez reforçando a importância do batismo para a salvação da alma.<br><br>Esta representação de São João Batista vai contra todas as demais que até então apresentavam o santo como uma figura magra e feroz. Além disso, esta representação repete o sorriso encontrado em Mona Lisa ou Santa Ana."
+    }
+  ]
+
+}

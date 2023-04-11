@@ -1,5 +1,0 @@
-let artistaMes = "";
-
-function montaHeader() {
-  
-}

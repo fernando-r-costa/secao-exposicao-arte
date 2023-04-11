@@ -6,7 +6,7 @@ html {
 body {
   width: 100vw;
   height: 48vw;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: rgb(189, 187, 178);
   background-image: url(../images/background.jpg);
   background-size: 100vw;
@@ -65,8 +65,10 @@ main {
 }
 
 #imagem {
-  margin: auto;
   width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto;
   border-radius: 0.5rem;
 }
 
